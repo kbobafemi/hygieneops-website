@@ -1,0 +1,13 @@
+const menuButton = document.getElementById("menuButton");
+const navLinks = document.getElementById("navLinks");
+
+menuButton.addEventListener("click", function () {
+  navLinks.classList.toggle("show");
+});
+
+const contactForm = document.querySelector(".contact-form");
+
+contactForm.addEventListener("submit", function (event) {
+  event.preventDefault();
+  alert("Thank you. Your interest has been noted. This form will be connected to a database in the next development stage.");
+});
