@@ -1,0 +1,9 @@
+{
+  "name": "hygieneops-static-website",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Cloudflare Pages-ready static landing page for HygieneOps by AlphaBridge SmartOps Ltd with Formspree-ready contact form, validation survey section, logo and social links.",
+  "scripts": {
+    "build": "echo \"Static site: no build step required\""
+  }
+}
