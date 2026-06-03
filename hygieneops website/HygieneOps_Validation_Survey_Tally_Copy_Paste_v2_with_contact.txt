@@ -1,0 +1,108 @@
+# HygieneOps Validation Survey
+A short validation survey for UK cleaning, hygiene and facilities service providers. Estimated completion time: 5-7 minutes.
+
+**Direct contact**
+Email: info@hygieneops.co.uk
+Phone: +44 7443 365555
+Website: hygieneops.co.uk
+
+**Purpose**
+We are validating HygieneOps before full development. Your answers will help us understand whether cleaning, hygiene and facilities providers need this workflow solution and what should be included in the first MVP.
+
+**Concept summary**
+HygieneOps is a proposed operations platform from AlphaBridge SmartOps Ltd for cleaning, hygiene and facilities service providers. The aim is to help teams manage client requests/LPOs, inspections, contract activation, workforce compliance, assignment deployment, evidence of work, and job-level financial visibility in one joined-up workflow.
+
+## Section 1 - Organisation Profile
+1. Organisation name
+Type: Short answer
+Options / guidance: Optional
+
+2. Your role
+Type: Multiple choice
+Options / guidance: Owner / Managing Director; Operations Director / Manager; Facilities / Contract Manager; Finance / Accounts; HR / Compliance; Supervisor / Site Manager; Other
+
+3. Which best describes your organisation?
+Type: Multiple choice
+Options / guidance: Cleaning / hygiene services provider; Facilities management company; Property / block management company; Serviced accommodation / short-let operator; Housing association / public-sector supplier; Other
+
+4. Approximate organisation size
+Type: Multiple choice
+Options / guidance: 1-10 operatives; 11-50 operatives; 51-200 operatives; 201-500 operatives; 500+ operatives; Prefer not to say
+
+5. Which contract types do you manage?
+Type: Checkboxes
+Options / guidance: Office / workplace cleaning; Education / university / nursery sites; Factory / production / warehouse sites; End-of-tenancy / property turnaround; Communal areas / housing association sites; Healthcare / clinic environments; Hospitality / short-let / serviced accommodation; Other
+
+## Section 2 - Current Workflow and Pain Points
+6. Which tools do you currently use from enquiry to job completion?
+Type: Checkboxes
+Options / guidance: Email; WhatsApp / messaging; Spreadsheets; Paper / PDF forms; Accounting software; Scheduling / workforce software; CRM; Facilities management software; Other
+
+7. How structured is your current process before a contract starts?
+Type: Multiple-choice grid
+Options / guidance: Rows: Client requirements/LPO; Shift times and site coverage; Site inspection/risk notes; Pricing/commercial terms; PPE/responsibility; Workforce compliance checks. Columns: Structured; Partly structured; Mostly ad hoc; Not applicable
+
+8. Where do delays, handover gaps or mistakes most often occur?
+Type: Checkboxes
+Options / guidance: Client request/LPO capture; Inspection and approval; Contract activation; Staff compliance documents; Assignment allocation; Supervisor deployment; Timesheets/evidence of work; Billing vs staff payment reconciliation; VAT/payroll/profitability reporting; Other
+
+9. How serious are these issues for your organisation?
+Type: Linear scale
+Options / guidance: 1 = Not serious, 5 = Critical
+
+10. What is the single biggest operational problem you would want software to solve?
+Type: Paragraph
+Options / guidance: Required
+
+## Section 3 - HygieneOps Concept and MVP
+11. After reading the concept, which part of HygieneOps would be most valuable to your organisation?
+Type: Checkboxes
+Options / guidance: Structured client request/LPO intake; Inspection scheduling and approval tracking; Digital contract activation; Workforce onboarding/compliance tracking; Assignment allocation and supervisor oversight; Time/GPS/checklist/photo evidence; Separate client billing and hygiene-professional payment ledger; Profitability, VAT and payroll reporting; Other
+
+12. What business outcome would matter most to you?
+Type: Multiple choice
+Options / guidance: Faster mobilisation; Fewer operational errors; Stronger compliance traceability; Better client transparency; Better contract profitability visibility; Lower admin workload; Better evidence of work completed; Other
+
+13. Which three features should be included in the first MVP for you to test it?
+Type: Checkboxes
+Options / guidance: Use same feature list as Question 11
+
+14. What feels unclear, unnecessary or least valuable in the concept?
+Type: Paragraph
+Options / guidance: Optional
+
+## Section 4 - Adoption, Pricing and Pilot Interest
+15. Who would normally decide whether to adopt this type of platform?
+Type: Multiple choice
+Options / guidance: Owner / Managing Director; Operations Director / Manager; Facilities / Contract Manager; Finance Director / Controller; HR / Compliance Lead; Procurement / Group approval; Other
+
+16. If HygieneOps solved your key problem, how likely would you be to review a demo or pilot?
+Type: Multiple choice
+Options / guidance: Very unlikely; Unlikely; Open to learning more; Likely to explore a pilot; Very likely - please follow up
+
+17. Which pricing model would feel most acceptable?
+Type: Multiple choice
+Options / guidance: Monthly SaaS subscription; Subscription based on organisation size; Fee per active operative/user; Fee per site/contract; Enterprise annual licence; Depends on ROI/business case; Other
+
+18. What monthly price range could be realistic if the platform clearly improved mobilisation, compliance visibility and profitability?
+Type: Multiple choice
+Options / guidance: Under £100; £100-£299; £300-£799; £800-£1,999; £2,000+ for larger enterprise value; Depends on ROI/business case; Not sure
+
+19. What could stop your organisation from using a platform like HygieneOps?
+Type: Checkboxes
+Options / guidance: Switching from current process; Data security/document sensitivity; Staff training burden; Integration with existing systems; Price; Lack of internal urgency; Need to see proof/results first; Other
+
+20. Would you be open to any next step?
+Type: Checkboxes
+Options / guidance: Receive a short follow-up presentation; Review a prototype/clickable demo; Join a customer advisory call; Participate in a structured pilot; Provide a letter/email of interest if the MVP matches our needs; No further involvement now
+
+21. May AlphaBridge SmartOps Ltd contact you for follow-up?
+Type: Multiple choice
+Options / guidance: Yes; No
+
+22. Preferred follow-up contact details
+Type: Short answer
+Options / guidance: Email and/or phone. Optional unless respondent selects follow-up.
+
+## Thank you page
+Thank you for helping us validate HygieneOps. Your feedback will shape the MVP before development. If you agreed to follow-up, AlphaBridge SmartOps Ltd may contact you about a prototype, demo or pilot discussion. For direct contact, email info@hygieneops.co.uk or call +44 7443 365555.

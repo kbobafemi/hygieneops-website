@@ -1,0 +1,37 @@
+HYGIENEOPS DEPLOYMENT CHECKLIST
+
+1. Delete old wrong duplicate files from GitHub if present:
+   - index(2).html
+   - style(2).css
+   - script(2).js
+   - package(2).json
+   - README(2).md
+   - thank-you(1).html
+   - validation-survey(1).html
+
+2. Upload these correct files at the repository root:
+   - index.html
+   - style.css
+   - script.js
+   - package.json
+   - README.md
+   - thank-you.html
+   - validation-survey.html
+   - assets/hygieneops-logo.png
+   - assets/favicon.png
+   - assets/social-preview.png
+
+3. Cloudflare Pages settings:
+   Framework preset: None
+   Build command: npm run build
+   Build output directory: .
+   Root directory: /
+
+4. After deployment, open:
+   https://hygieneops.co.uk
+   https://hygieneops.co.uk/validation-survey.html
+   https://hygieneops.co.uk/thank-you.html
+
+5. Submit one test contact form and one validation survey.
+
+6. Check Formspree dashboard and email inbox/spam folder.

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HygieneOps Validation Survey | AlphaBridge SmartOps Ltd</title>
+  <meta name="description" content="Validation survey for HygieneOps, a proposed operations platform for cleaning, hygiene and facilities service providers." />
+  <link rel="icon" href="./assets/favicon.png" type="image/png" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
+      <a href="./index.html#top" class="brand" aria-label="HygieneOps home">
+        <img src="./assets/hygieneops-logo.png" alt="HygieneOps logo" class="brand-logo" />
+      </a>
+      <button class="menu-button" id="menuButton" type="button" aria-label="Open menu" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="./index.html#about">About</a></li>
+        <li><a href="./index.html#platform">Platform</a></li>
+        <li><a href="./index.html#features">Features</a></li>
+        <li><a href="./index.html#validation">Validation</a></li>
+        <li><a href="./index.html#contact" class="nav-cta">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Validation survey</p>
+        <h1>Help us validate HygieneOps before full development.</h1>
+        <p class="hero-text">
+          This short survey is for UK cleaning, hygiene and facilities service providers. Your answers will help AlphaBridge SmartOps Ltd understand the real market need, key pain points and the first MVP features that should be prioritised.
+        </p>
+        <div class="hero-actions">
+          <a href="#survey" class="button primary">Start Survey</a>
+          <a href="./index.html" class="button secondary">Back to Website</a>
+        </div>
+      </div>
+      <aside class="hero-card" aria-label="Survey purpose">
+        <h2>Survey purpose</h2>
+        <div class="dashboard-item"><span>Estimated time</span><strong>5–7 mins</strong></div>
+        <div class="dashboard-item"><span>Focus</span><strong>MVP validation</strong></div>
+        <div class="dashboard-item"><span>Audience</span><strong>UK operators</strong></div>
+        <div class="dashboard-item"><span>Contact</span><strong>Optional</strong></div>
+      </aside>
+    </section>
+
+    <section class="section" id="survey">
+      <div class="section-heading">
+        <p class="eyebrow">HygieneOps validation form</p>
+        <h2>Share your operational feedback</h2>
+      </div>
+
+      <form class="contact-form survey-form" action="https://formspree.io/f/xeedynvg" method="POST">
+        <input type="hidden" name="_subject" value="New HygieneOps Validation Survey Response" />
+        <input type="hidden" name="source" value="HygieneOps validation survey page" />
+        <input type="hidden" name="_next" value="https://hygieneops.co.uk/thank-you.html" />
+
+        <h3>Section 1 — Organisation Profile</h3>
+        <label><span>1. Organisation name</span><input type="text" name="organisation_name" placeholder="Optional" /></label>
+        <label><span>2. Your role</span><select name="role" required><option value="">Select one</option><option>Owner / Managing Director</option><option>Operations Director / Manager</option><option>Facilities / Contract Manager</option><option>Finance / Accounts</option><option>HR / Compliance</option><option>Supervisor / Site Manager</option><option>Other</option></select></label>
+        <label><span>3. Which best describes your organisation?</span><select name="organisation_type" required><option value="">Select one</option><option>Cleaning / hygiene services provider</option><option>Facilities management company</option><option>Property / block management company</option><option>Serviced accommodation / short-let operator</option><option>Housing association / public-sector supplier</option><option>Other</option></select></label>
+        <label><span>4. Approximate organisation size</span><select name="organisation_size" required><option value="">Select one</option><option>1-10 operatives</option><option>11-50 operatives</option><option>51-200 operatives</option><option>201-500 operatives</option><option>500+ operatives</option><option>Prefer not to say</option></select></label>
+        <label><span>5. Which contract types do you manage?</span><textarea name="contract_types" placeholder="Office cleaning, education sites, factory/warehouse, end-of-tenancy, housing association, healthcare, hospitality/short-let, other" required></textarea></label>
+
+        <h3>Section 2 — Current Workflow and Pain Points</h3>
+        <label><span>6. Which tools do you currently use from enquiry to job completion?</span><textarea name="current_tools" placeholder="Email, WhatsApp, spreadsheets, paper/PDF forms, accounting software, scheduling software, CRM, FM software, other" required></textarea></label>
+        <label><span>7. How structured is your current process before a contract starts?</span><textarea name="process_structure" placeholder="Please comment on client requirements/LPO, shift times, inspection notes, pricing terms, PPE responsibility and workforce compliance checks." required></textarea></label>
+        <label><span>8. Where do delays, handover gaps or mistakes most often occur?</span><textarea name="delay_points" placeholder="Client request/LPO capture, inspection, contract activation, staff documents, allocation, deployment, timesheets/evidence, billing/payment reconciliation, VAT/payroll/profitability reporting, other" required></textarea></label>
+        <label><span>9. How serious are these issues?</span><select name="issue_seriousness" required><option value="">Select one</option><option>1 - Not serious</option><option>2</option><option>3</option><option>4</option><option>5 - Critical</option></select></label>
+        <label><span>10. What is the single biggest operational problem you would want software to solve?</span><textarea name="biggest_problem" required></textarea></label>
+
+        <h3>Section 3 — HygieneOps Concept and MVP</h3>
+        <label><span>11. Which part of HygieneOps would be most valuable to your organisation?</span><textarea name="most_valuable_features" placeholder="Client request/LPO intake, inspection scheduling, contract activation, compliance tracking, assignment allocation, GPS/checklist/photo evidence, billing/payment ledger, profitability/VAT/payroll reporting, other" required></textarea></label>
+        <label><span>12. What business outcome would matter most to you?</span><select name="business_outcome" required><option value="">Select one</option><option>Faster mobilisation</option><option>Fewer operational errors</option><option>Stronger compliance traceability</option><option>Better client transparency</option><option>Better contract profitability visibility</option><option>Lower admin workload</option><option>Better evidence of work completed</option><option>Other</option></select></label>
+        <label><span>13. Which three features should be included in the first MVP for you to test it?</span><textarea name="first_mvp_features" required></textarea></label>
+        <label><span>14. What feels unclear, unnecessary or least valuable in the concept?</span><textarea name="unclear_or_unnecessary" placeholder="Optional"></textarea></label>
+
+        <h3>Section 4 — Adoption, Pricing and Pilot Interest</h3>
+        <label><span>15. Who would normally decide whether to adopt this type of platform?</span><select name="decision_maker" required><option value="">Select one</option><option>Owner / Managing Director</option><option>Operations Director / Manager</option><option>Facilities / Contract Manager</option><option>Finance Director / Controller</option><option>HR / Compliance Lead</option><option>Procurement / Group approval</option><option>Other</option></select></label>
+        <label><span>16. If HygieneOps solved your key problem, how likely would you be to review a demo or pilot?</span><select name="demo_or_pilot_likelihood" required><option value="">Select one</option><option>Very unlikely</option><option>Unlikely</option><option>Open to learning more</option><option>Likely to explore a pilot</option><option>Very likely - please follow up</option></select></label>
+        <label><span>17. Which pricing model would feel most acceptable?</span><select name="pricing_model" required><option value="">Select one</option><option>Monthly SaaS subscription</option><option>Subscription based on organisation size</option><option>Fee per active operative/user</option><option>Fee per site/contract</option><option>Enterprise annual licence</option><option>Depends on ROI/business case</option><option>Other</option></select></label>
+        <label><span>18. What monthly price range could be realistic?</span><select name="price_range" required><option value="">Select one</option><option>Under £100</option><option>£100-£299</option><option>£300-£799</option><option>£800-£1,999</option><option>£2,000+ for larger enterprise value</option><option>Depends on ROI/business case</option><option>Not sure</option></select></label>
+        <label><span>19. What could stop your organisation from using a platform like HygieneOps?</span><textarea name="adoption_barriers" placeholder="Switching from current process, data security, staff training, integration, price, lack of urgency, need proof/results first, other" required></textarea></label>
+        <label><span>20. Would you be open to any next step?</span><textarea name="next_step_interest" placeholder="Follow-up presentation, prototype review, advisory call, pilot, letter/email of interest, no further involvement" required></textarea></label>
+        <label><span>21. May AlphaBridge SmartOps Ltd contact you for follow-up?</span><select name="follow_up_permission" required><option value="">Select one</option><option>Yes</option><option>No</option></select></label>
+        <label><span>22. Preferred follow-up contact details</span><input type="text" name="follow_up_contact" placeholder="Email and/or phone. Optional unless you selected follow-up." /></label>
+
+        <button type="submit">Submit Validation Response</button>
+        <p class="form-note">Thank you for helping us validate HygieneOps. Your response will be sent through Formspree to the email configured in your Formspree account.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logo-wrap"><img src="./assets/hygieneops-logo.png" alt="HygieneOps logo" class="footer-logo" /></div>
+    <p>© <span id="currentYear">2026</span> AlphaBridge SmartOps Ltd. HygieneOps is a product of AlphaBridge SmartOps Ltd.</p>
+    <p>Direct contact: <a href="mailto:info@hygieneops.co.uk">info@hygieneops.co.uk</a> | <a href="tel:+447443365555">+44 7443 365555</a></p>
+    <div class="social-links" aria-label="HygieneOps social media links">
+      <a href="https://www.facebook.com/profile.php?id=61590539941888" target="_blank" rel="noopener">Facebook</a>
+      <a href="https://www.linkedin.com/in/hygiene-ops-70b36b413?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://www.instagram.com/hygieneops.co.uk?igsh=MWZ2eHB3cDVhaXh0dw%3D%3D&utm_source=qr" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://x.com/hygieneops1?s=21" target="_blank" rel="noopener">X</a>
+      <a href="https://www.threads.com/@hygieneops.co.uk?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener">Threads</a>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+</html>
