@@ -1,0 +1,10 @@
+{
+  "name": "hygieneops-saas-alphaops-fixed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static HygieneOps SaaS MVP with AlphaOps chat and social inbox architecture.",
+  "scripts": {
+    "build": "echo 'Static site - no build step required'"
+  },
+  "dependencies": {}
+}
