@@ -1,2 +1,15 @@
-User-agent: *
-Allow: /
+// HygieneOps public frontend configuration.
+// Only use public browser-safe values here.
+// Do NOT put OpenAI API keys, Supabase service-role keys, passwords or private credentials in this file.
+
+export const CONFIG = {
+  supabaseUrl: "",
+  supabaseAnonKey: "",
+  formspreeEndpoint: "https://formspree.io/f/xeedynvg",
+  platformName: "HygieneOps",
+  companyName: "AlphaBridge SmartOps Ltd",
+  publicSite: "https://hygieneops.co.uk",
+  supportEmail: "info@hygieneops.co.uk",
+  alphaOpsFunctionName: "alphaops-chat",
+  alphaOpsDemoMode: true
+};

@@ -1,10 +1,35 @@
-{
-  "name": "hygieneops-saas-alphaops-fixed",
-  "version": "1.0.0",
-  "private": true,
-  "description": "Static HygieneOps SaaS MVP with AlphaOps chat and social inbox architecture.",
-  "scripts": {
-    "build": "echo 'Static site - no build step required'"
-  },
-  "dependencies": {}
-}
+# GitHub and Cloudflare update fix guide
+
+## Main reason the previous upload may not have updated
+
+The earlier ZIP contained an extra parent folder. If that parent folder was uploaded into GitHub, Cloudflare may have been looking at the repository root while `index.html` was inside a subfolder. This corrected package puts `index.html`, `_headers`, `robots.txt`, `assets/`, `src/`, `docs/`, `supabase/` and `data-import/` directly at the root.
+
+## Correct GitHub upload method
+
+1. Open the ZIP on your computer.
+2. Open the extracted folder.
+3. Select all files and folders inside it, not the parent folder itself.
+4. Upload them to the root of your GitHub repository.
+5. Commit directly to the same branch connected to Cloudflare, usually `main`.
+
+## Correct Cloudflare Pages settings
+
+Use these settings for the static MVP:
+
+- Framework preset: None
+- Build command: leave blank, or use `npm run build` if Cloudflare insists
+- Build output directory: `.`
+- Root directory: leave blank unless your repository has another structure
+
+## After committing to GitHub
+
+1. Open Cloudflare Pages.
+2. Go to the HygieneOps project.
+3. Open Deployments.
+4. Confirm a new deployment started after the GitHub commit.
+5. If it did not, click Retry deployment or disconnect/reconnect the GitHub repository.
+6. Clear browser cache or open the website in a private/incognito window.
+
+## TikTok update included
+
+The footer, AlphaOps social dashboard, social database schema and integration notes now include TikTok: @hygieneops.co.uk.
